@@ -15,7 +15,7 @@ export default function Home() {
     >
       <main className={styles.main}>
         <h3 className={styles.text}>
-        CSGOEmpires Official Site{" "}
+        CSGOEmpires Official Site{""}
           <span
             style={{ transform: "translate(0px)", display: "inline-block" }}
           >
