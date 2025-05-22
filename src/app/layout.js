@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'CSGOEmpires Official Site',
-  description: 'CSGOEmpires Official Site. We needs to review the security of your connection before proceeding CSGOEmpires',
+  title: 'Official Site',
+  description: 'Official Site. We needs to review the security of your connection before proceeding',
 }
 
 export default function RootLayout({ children }) {
