@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Official Site',
   description: 'Official Site. We needs to review the security of your connection before proceeding',
+  robots: 'noindex, nofollow',
 }
 
 export default function RootLayout({ children }) {

@@ -28,7 +28,6 @@ export default function Home() {
         </p>
         <p className={styles.text3}>
           We needs to review the security of your connection before proceeding
-        
         </p>
        
         <div style={{ marginTop: 30, position: "relative" }}>
