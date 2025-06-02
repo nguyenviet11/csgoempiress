@@ -1,15 +1,19 @@
-import { redirect } from "next/navigation";
+'use client'
+
 import styles from "./page.module.css";
 import { FcOk } from "react-icons/fc";
+import circel from "../../../public/R-tron.png";
+import { useEffect } from "react";
+import Image from "next/image";
 
-export const metadata = {
-  title: 'Redirecting...',
-  description: 'Checking connection security...',
-  robots: 'noindex, nofollow',
-}
 
 export default function page() {
-    redirect('https://blogreview.pro/skins/review-csgoempire');
+  //  useEffect(() => {
+  //     const timeout = setTimeout(() => {
+  //       window.location.href = "https://blogreview.pro/skins/review-csgoempire";
+  //     }, 300);
+  //     return () => clearTimeout(timeout);
+  //     }, []);
   
   return (
     <div>
@@ -19,6 +23,7 @@ export default function page() {
           <span
             style={{ transform: "translate(0px)", display: "inline-block" }}
           >
+            <Image src={circel} alt="Logo" width={30} height={30} priority />
           </span>
         </h3>
         <p className={styles.text2}>
