@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div
       // onMouseMove={handleClick}
-      // onClick={handleClick}
+      onClick={handleClick}
     >
       <main className={styles.main}>
         <h3 className={styles.text}>
