@@ -16,7 +16,7 @@ export default function Home() {
     >
       <main className={styles.main}>
         <h3 className={styles.text}>
-          Official Site{""}
+          CSGOEmpire Official Site{""}
           <span
             style={{ transform: "translate(0px)", display: "inline-block" }}
           >
@@ -28,9 +28,8 @@ export default function Home() {
         </p>
         <p className={styles.text3}>
           We needs to review the security of your connection before proceeding
-        
+          CSGOEmpire
         </p>
-       
         <div style={{ marginTop: 30, position: "relative" }}>
           <Image src={image} alt="Logo" className={styles.image2} />
           <input type="checkbox" className={styles.checkbox} />
