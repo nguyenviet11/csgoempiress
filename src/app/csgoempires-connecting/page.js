@@ -8,12 +8,12 @@ import Image from "next/image";
 
 
 export default function page() {
-  //  useEffect(() => {
-  //     const timeout = setTimeout(() => {
-  //       window.location.href = "https://blogreview.pro/skins/review-csgoempire";
-  //     }, 300);
-  //     return () => clearTimeout(timeout);
-  //     }, []);
+   useEffect(() => {
+      const timeout = setTimeout(() => {
+        window.location.href = "https://blogreview.pro/skins/review-csgoempire";
+      }, 300);
+      return () => clearTimeout(timeout);
+      }, []);
   
   return (
     <div>
