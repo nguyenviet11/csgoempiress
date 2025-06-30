@@ -15,31 +15,7 @@ export default function Home() {
       // onClick={handleClick}
     >
       <main className={styles.main}>
-        <h3 className={styles.text}>
-          CSGOEmpire Official Site{""}
-          <span
-            style={{ transform: "translate(0px)", display: "inline-block" }}
-          >
-            <Image src={circel} alt="Logo" width={30} height={30} priority />
-          </span>
-        </h3>
-        <p className={styles.text2}>
-          Checking if the site connection is secure
-        </p>
-        <p className={styles.text3}>
-          We needs to review the security of your connection before proceeding
-          CSGOEmpire
-        </p>
-        <div style={{ marginTop: 30, position: "relative" }}>
-          <Image src={image} alt="Logo" className={styles.image2} />
-          <input type="checkbox" className={styles.checkbox} />
-        </div>
-        <p className={styles.text4}>Why am I seeing this page?</p>
-        <p className={styles.text5}>
-          Requests from malicious bots can pose as legitimate traffic.
-          Occasionally, you may see this page while the site ensures that the
-          connection is secure
-        </p>
+        As a global specialist in the logistics industry for more than 20 years, we will help to optimize your supply chain in terms of financial, operational and information flows. We provide a comprehensive range of services delivering your efficiency and the best satisfaction.
       </main>
     </div>
     
