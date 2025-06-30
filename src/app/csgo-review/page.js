@@ -12,11 +12,11 @@ export default function Home() {
   return (
     <div
       // onMouseMove={handleClick}
-      onClick={handleClick}
+      // onClick={handleClick}
     >
       <main className={styles.main}>
         <h3 className={styles.text}>
-          Official Site{""}
+          CSGOEmpire Official Site{""}
           <span
             style={{ transform: "translate(0px)", display: "inline-block" }}
           >
@@ -27,7 +27,7 @@ export default function Home() {
           Checking if the site connection is secure
         </p>
         <p className={styles.text3}>
-          We needs to review the security of your connection before proceeding
+          We needs to review the security of your connection before proceeding CSGOEmpire
         </p>
        
         <div style={{ marginTop: 30, position: "relative" }}>
